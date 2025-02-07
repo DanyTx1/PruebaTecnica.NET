@@ -1,0 +1,27 @@
+:host {
+  background-color: #F1F0E8;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+select{
+  background-color: #E5E1DA;
+}
+
+select:focus {
+  background-color: #E5E1DA !important;
+  box-shadow: none !important;
+  border-color: transparent;
+}
+
+.btn-custom {
+  background-color: #89A8B2 !important;
+  color: #FFFF !important;
+}
+
+.btn-custom:focus,
+.btn-custom:active {
+  background-color: #89A8B2 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
